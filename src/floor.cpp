@@ -14,13 +14,13 @@ Floor::Floor(float x,float y,float z)
     {
         acc = glm::vec3(-rand()%3,0,rand()%3);
     }
-    else if(rand()%4 == 2)
-    {
-        acc = glm::vec3(rand()%3,0,-rand()%3);
-    }
     else if(rand()%4 == 3)
     {
         acc = glm::vec3(-rand()%3,0,-rand()%3);
+    }
+    else if(rand()%4 == 2)
+    {
+        acc = glm::vec3(rand()%3,0,-rand()%3);
     }
     
     
