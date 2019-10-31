@@ -10,5 +10,5 @@
   * cmake ..
   * make all
 
-* To run the game enter these command in the output/ directory:
+* To run the game enter these command in the output/ directory:-
 	* run	./graphics_asgn1 in build directory
